@@ -1,0 +1,246 @@
+2025-09-03 16:31:53 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 16:31:53 info: [app] Server running on port 3000
+2025-09-03 16:31:53 info: [app] Environment: development
+2025-09-03 16:31:53 info: [app] Authentication mode: local
+2025-09-03 16:31:53 info: [app] Connected to MongoDB
+2025-09-03 16:31:53 info: [app] Default modules initialized
+2025-09-03 16:31:53 info: [app] Default roles initialized
+2025-09-03 16:32:37 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:13:32:37 +0000] "GET / HTTP/1.1" 200 8116 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 16:32:37 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:13:32:37 +0000] "GET /css/style.css HTTP/1.1" 200 5430 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 16:32:37 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:13:32:37 +0000] "GET /js/api.js HTTP/1.1" 200 4067 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 16:32:37 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:13:32:37 +0000] "GET /js/auth.js HTTP/1.1" 200 3581 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 16:32:37 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:13:32:37 +0000] "GET /js/modules.js HTTP/1.1" 200 2654 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 16:32:37 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:13:32:37 +0000] "GET /js/admin.js HTTP/1.1" 200 2781 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 16:32:37 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:13:32:37 +0000] "GET /js/main.js HTTP/1.1" 200 10564 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 16:32:38 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:13:32:38 +0000] "GET /favicon.ico HTTP/1.1" 200 8116 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 16:32:52 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:13:32:52 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 16:33:10 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:13:33:10 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 16:33:12 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:13:33:12 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 16:34:00 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:13:34:00 +0000] "GET / HTTP/1.1" 200 8116 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 16:35:02 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:13:35:02 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 16:35:35 info: [app] Server running on port 3000
+2025-09-03 16:35:35 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 16:35:35 info: [app] Environment: development
+2025-09-03 16:35:35 info: [app] Authentication mode: local
+2025-09-03 16:35:36 info: [app] Connected to MongoDB
+2025-09-03 16:35:36 info: [app] Default roles initialized
+2025-09-03 16:35:36 info: [app] Default modules initialized
+2025-09-03 16:35:39 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 16:35:40 info: [app] Server running on port 3000
+2025-09-03 16:35:40 info: [app] Environment: development
+2025-09-03 16:35:40 info: [app] Authentication mode: local
+2025-09-03 16:35:40 info: [app] Connected to MongoDB
+2025-09-03 16:35:40 info: [app] Default roles initialized
+2025-09-03 16:35:40 info: [app] Default modules initialized
+2025-09-03 16:44:32 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 16:44:32 info: [app] Server running on port 3000
+2025-09-03 16:44:32 info: [app] Environment: development
+2025-09-03 16:44:32 info: [app] Authentication mode: local
+2025-09-03 16:44:32 info: [app] Connected to MongoDB
+2025-09-03 16:44:32 info: [app] Default modules initialized
+2025-09-03 16:44:32 info: [app] Default roles initialized
+2025-09-03 16:44:47 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:13:44:47 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 16:44:48 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:13:44:48 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 16:45:02 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:13:45:02 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 16:45:04 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:13:45:04 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 16:45:04 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:13:45:04 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 16:45:11 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:13:45:11 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 16:48:02 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 16:48:02 info: [app] Server running on port 3000
+2025-09-03 16:48:02 info: [app] Environment: development
+2025-09-03 16:48:02 info: [app] Authentication mode: local
+2025-09-03 16:48:02 info: [app] Connected to MongoDB
+2025-09-03 16:48:02 info: [app] Default modules initialized
+2025-09-03 16:48:02 info: [app] Default roles initialized
+2025-09-03 16:55:59 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 16:55:59 info: [app] Server running on port 3000
+2025-09-03 16:55:59 info: [app] Environment: development
+2025-09-03 16:55:59 info: [app] Authentication mode: local
+2025-09-03 16:55:59 info: [app] Connected to MongoDB
+2025-09-03 16:55:59 info: [app] Default roles initialized
+2025-09-03 16:55:59 info: [app] Default modules initialized
+2025-09-03 17:01:35 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 17:01:35 info: [app] Server running on port 3000
+2025-09-03 17:01:35 info: [app] Environment: development
+2025-09-03 17:01:35 info: [app] Authentication mode: local
+2025-09-03 17:01:35 info: [app] Connected to MongoDB
+2025-09-03 17:01:35 info: [app] Default modules initialized
+2025-09-03 17:01:35 info: [app] Default roles initialized
+2025-09-03 17:02:10 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:02:10 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:03:18 warn: [localAuthAdapter] Invalid password for user: admin
+2025-09-03 17:03:18 warn: [authService] Failed authentication attempt for user: admin
+2025-09-03 17:03:18 warn: [authRoutes] Failed login attempt for user: admin
+2025-09-03 17:03:18 info: [app] ::1 - - [03/Sep/2025:14:03:18 +0000] "POST /api/auth/login HTTP/1.1" 401 31 "-" "curl/8.9.1"
+2025-09-03 17:05:01 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 17:05:02 info: [app] Server running on port 3000
+2025-09-03 17:05:02 info: [app] Environment: development
+2025-09-03 17:05:02 info: [app] Authentication mode: local
+2025-09-03 17:05:02 info: [app] Connected to MongoDB
+2025-09-03 17:05:02 info: [app] Default modules initialized
+2025-09-03 17:05:02 info: [app] Default roles initialized
+2025-09-03 17:08:12 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 17:08:12 info: [app] Server running on port 3000
+2025-09-03 17:08:12 info: [app] Environment: development
+2025-09-03 17:08:12 info: [app] Authentication mode: local
+2025-09-03 17:08:12 info: [app] Connected to MongoDB
+2025-09-03 17:08:12 info: [app] Default modules initialized
+2025-09-03 17:08:12 info: [app] Default roles initialized
+2025-09-03 17:08:23 info: [localAuthAdapter] Local authentication successful for user: admin
+2025-09-03 17:08:23 info: [authService] User authenticated successfully: admin
+2025-09-03 17:08:23 info: [authRoutes] User logged in: admin
+2025-09-03 17:08:23 info: [app] ::1 - - [03/Sep/2025:14:08:23 +0000] "POST /api/auth/login HTTP/1.1" 200 331 "-" "curl/8.9.1"
+2025-09-03 17:08:35 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:08:35 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:08:37 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:08:37 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:08:38 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:08:38 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:08:38 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:08:38 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:08:38 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:08:38 +0000] "GET /js/api.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:08:38 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:08:38 +0000] "GET /js/auth.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:08:38 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:08:38 +0000] "GET /js/modules.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:08:38 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:08:38 +0000] "GET /js/admin.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:08:38 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:08:38 +0000] "GET /js/main.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:08:38 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:08:38 +0000] "GET /favicon.ico HTTP/1.1" 200 8116 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:08:52 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:08:52 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:08:56 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:08:56 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:08:57 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:08:57 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:10:08 info: [localAuthAdapter] Local authentication successful for user: admin
+2025-09-03 17:10:08 info: [authService] User authenticated successfully: admin
+2025-09-03 17:10:08 info: [authRoutes] User logged in: admin
+2025-09-03 17:10:08 info: [app] ::1 - - [03/Sep/2025:14:10:08 +0000] "POST /api/auth/login HTTP/1.1" 200 331 "-" "curl/8.9.1"
+2025-09-03 17:11:29 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:11:29 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:11:36 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:11:36 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:11:38 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:11:38 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:11:38 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:11:38 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:11:38 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:11:38 +0000] "GET /js/modules.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:11:38 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:11:38 +0000] "GET /js/admin.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:11:38 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:11:38 +0000] "GET /js/main.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:11:38 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:11:38 +0000] "GET /js/api.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:11:38 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:11:38 +0000] "GET /js/auth.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:12:35 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:12:35 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:13:17 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:13:17 +0000] "GET / HTTP/1.1" 200 8116 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:13:18 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:13:18 +0000] "GET /css/style.css HTTP/1.1" 200 5430 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:13:18 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:13:18 +0000] "GET /js/api.js HTTP/1.1" 200 4067 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:13:18 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:13:18 +0000] "GET /js/auth.js HTTP/1.1" 200 3581 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:13:18 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:13:18 +0000] "GET /js/modules.js HTTP/1.1" 200 2654 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:13:18 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:13:18 +0000] "GET /js/main.js HTTP/1.1" 200 10564 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:13:18 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:13:18 +0000] "GET /js/admin.js HTTP/1.1" 200 2781 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:13:18 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:13:18 +0000] "GET /favicon.ico HTTP/1.1" 200 8116 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:13:25 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:13:25 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:13:38 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:13:38 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:16:26 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 17:16:26 info: [app] Server running on port 3000
+2025-09-03 17:16:26 info: [app] Environment: development
+2025-09-03 17:16:26 info: [app] Authentication mode: local
+2025-09-03 17:16:26 info: [app] Connected to MongoDB
+2025-09-03 17:16:26 info: [app] Default modules initialized
+2025-09-03 17:16:26 info: [app] Default roles initialized
+2025-09-03 17:20:57 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 17:20:57 info: [app] Server running on port 3000
+2025-09-03 17:20:57 info: [app] Environment: development
+2025-09-03 17:20:57 info: [app] Authentication mode: local
+2025-09-03 17:20:57 info: [app] Connected to MongoDB
+2025-09-03 17:20:57 info: [app] Default modules initialized
+2025-09-03 17:20:57 info: [app] Default roles initialized
+2025-09-03 17:21:03 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:21:03 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:21:20 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:21:20 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:21:20 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:21:20 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:21:20 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:21:20 +0000] "GET /js/api.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:21:20 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:21:20 +0000] "GET /js/auth.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:21:20 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:21:20 +0000] "GET /js/modules.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:21:20 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:21:20 +0000] "GET /js/admin.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:21:20 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:21:20 +0000] "GET /js/main.js HTTP/1.1" 200 10746 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:21:29 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:21:29 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:23:56 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 17:23:56 info: [app] Server running on port 3000
+2025-09-03 17:23:56 info: [app] Environment: development
+2025-09-03 17:23:56 info: [app] Authentication mode: local
+2025-09-03 17:23:56 info: [app] Connected to MongoDB
+2025-09-03 17:23:57 info: [app] Default modules initialized
+2025-09-03 17:23:57 info: [app] Default roles initialized
+2025-09-03 17:24:03 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 17:24:03 info: [app] Server running on port 3000
+2025-09-03 17:24:03 info: [app] Environment: development
+2025-09-03 17:24:03 info: [app] Authentication mode: local
+2025-09-03 17:24:03 info: [app] Connected to MongoDB
+2025-09-03 17:24:03 info: [app] Default roles initialized
+2025-09-03 17:24:03 info: [app] Default modules initialized
+2025-09-03 17:25:50 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 17:25:50 info: [app] Server running on port 3000
+2025-09-03 17:25:50 info: [app] Environment: development
+2025-09-03 17:25:50 info: [app] Authentication mode: local
+2025-09-03 17:25:50 info: [app] Connected to MongoDB
+2025-09-03 17:25:50 info: [app] Default roles initialized
+2025-09-03 17:25:50 info: [app] Default modules initialized
+2025-09-03 17:26:05 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:26:05 +0000] "GET /debug-login.html HTTP/1.1" 200 4018 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:27:05 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:27:05 +0000] "GET /debug-login.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:29:26 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 17:29:26 info: [app] Server running on port 3000
+2025-09-03 17:29:26 info: [app] Environment: development
+2025-09-03 17:29:26 info: [app] Authentication mode: local
+2025-09-03 17:29:26 info: [app] Connected to MongoDB
+2025-09-03 17:29:26 info: [app] Default roles initialized
+2025-09-03 17:29:26 info: [app] Default modules initialized
+2025-09-03 17:29:31 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:29:31 +0000] "GET /debug-login.html HTTP/1.1" 200 1445 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:29:31 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:29:31 +0000] "GET /js/debug.js HTTP/1.1" 200 2677 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:29:34 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:29:34 +0000] "POST /api/auth/debug HTTP/1.1" 200 113 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:29:41 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:29:41 +0000] "POST /api/auth/debug HTTP/1.1" 200 67 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:32:22 info: [localAuthAdapter] Local authentication successful for user: admin
+2025-09-03 17:32:22 info: [authService] User authenticated successfully: admin
+2025-09-03 17:32:22 info: [authRoutes] User logged in: admin
+2025-09-03 17:32:22 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:32:22 +0000] "POST /api/auth/login HTTP/1.1" 200 331 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:32:55 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:32:55 +0000] "POST /api/auth/debug HTTP/1.1" 200 67 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:34:03 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:34:03 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:34:03 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:34:03 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:34:03 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:34:03 +0000] "GET /js/api.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:34:03 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:34:03 +0000] "GET /js/modules.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:34:03 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:34:03 +0000] "GET /js/admin.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:34:03 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:34:03 +0000] "GET /js/auth.js HTTP/1.1" 200 4123 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:34:03 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:34:03 +0000] "GET /js/main.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:34:07 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:34:07 +0000] "GET /?username=admin&password=admin-password HTTP/1.1" 200 8116 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:34:07 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:34:07 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:34:07 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:34:07 +0000] "GET /js/api.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:34:07 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:34:07 +0000] "GET /js/auth.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:34:07 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:34:07 +0000] "GET /js/modules.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:34:07 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:34:07 +0000] "GET /js/admin.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:34:07 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:34:07 +0000] "GET /js/main.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:34:58 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 17:34:58 info: [app] Server running on port 3000
+2025-09-03 17:34:58 info: [app] Environment: development
+2025-09-03 17:34:58 info: [app] Authentication mode: local
+2025-09-03 17:34:58 info: [app] Connected to MongoDB
+2025-09-03 17:34:58 info: [app] Default modules initialized
+2025-09-03 17:34:58 info: [app] Default roles initialized
+2025-09-03 17:35:03 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:35:03 +0000] "GET /?username=admin&password=admin-password HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:35:03 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:35:03 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:35:03 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:35:03 +0000] "GET /js/api.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:35:03 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:35:03 +0000] "GET /js/auth.js HTTP/1.1" 200 4665 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:35:03 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:35:03 +0000] "GET /js/modules.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:35:03 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:35:03 +0000] "GET /js/admin.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:35:03 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:35:03 +0000] "GET /js/main.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:45:02 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 17:45:02 info: [app] Server running on port 3000
+2025-09-03 17:45:02 info: [app] Environment: development
+2025-09-03 17:45:02 info: [app] Authentication mode: local
+2025-09-03 17:45:02 info: [app] Connected to MongoDB
+2025-09-03 17:45:02 info: [app] Default modules initialized
+2025-09-03 17:45:02 info: [app] Default roles initialized
+2025-09-03 17:45:10 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:45:10 +0000] "GET /?username=admin&password=admin-password HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:45:11 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:45:11 +0000] "GET /css/style.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:45:11 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:45:11 +0000] "GET /js/api.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:45:11 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:45:11 +0000] "GET /js/auth.js HTTP/1.1" 200 3580 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:45:11 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:45:11 +0000] "GET /js/modules.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:45:11 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:45:11 +0000] "GET /js/admin.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:45:11 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:45:11 +0000] "GET /js/main.js HTTP/1.1" 200 11191 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:45:17 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:45:17 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:45:40 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:45:40 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 17:45:58 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:14:45:58 +0000] "POST /api/auth/login HTTP/1.1" 400 105 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 18:34:19 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 18:34:19 info: [app] Server running on port 3000
+2025-09-03 18:34:19 info: [app] Environment: development
+2025-09-03 18:34:19 info: [app] Authentication mode: local
+2025-09-03 18:34:19 info: [app] Connected to MongoDB
+2025-09-03 18:34:19 info: [app] Default roles initialized
+2025-09-03 18:34:19 info: [app] Default modules initialized
+2025-09-03 18:34:25 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:15:34:25 +0000] "GET /?username=admin&password=admin-password HTTP/1.1" 200 264 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 18:34:26 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:15:34:26 +0000] "GET /simple-login.html HTTP/1.1" 200 2763 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 18:34:31 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:15:34:31 +0000] "GET /simple-login.html?username=admin&password=admin-password HTTP/1.1" 200 2763 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 18:34:33 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:15:34:33 +0000] "GET /simple-login.html?username=admin&password=admin-password HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
