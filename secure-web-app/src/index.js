@@ -49,8 +49,22 @@ if (!fs.existsSync('logs')) {
   fs.mkdirSync('logs');
 }
 
-// Security middleware
-app.use(helmet());
+// Security middleware with CSP configuration
+app.use(helmet({
+  contentSecurityPolicy: {
+    directives: {
+      defaultSrc: ["'self'"],
+      scriptSrc: ["'self'", "'unsafe-inline'"],  // Allow inline scripts
+      styleSrc: ["'self'", "'unsafe-inline'"],   // Allow inline styles
+      imgSrc: ["'self'"],
+      connectSrc: ["'self'"],
+      fontSrc: ["'self'"],
+      objectSrc: ["'none'"],
+      mediaSrc: ["'self'"],
+      frameSrc: ["'none'"],
+    }
+  }
+}));
 
 // Rate limiting
 const limiter = rateLimit({

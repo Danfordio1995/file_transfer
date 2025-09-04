@@ -244,3 +244,317 @@
 2025-09-03 18:34:26 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:15:34:26 +0000] "GET /simple-login.html HTTP/1.1" 200 2763 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
 2025-09-03 18:34:31 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:15:34:31 +0000] "GET /simple-login.html?username=admin&password=admin-password HTTP/1.1" 200 2763 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
 2025-09-03 18:34:33 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:15:34:33 +0000] "GET /simple-login.html?username=admin&password=admin-password HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 19:05:47 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 19:05:47 info: [app] Server running on port 3000
+2025-09-03 19:05:47 info: [app] Environment: development
+2025-09-03 19:05:47 info: [app] Authentication mode: local
+2025-09-03 19:05:47 info: [app] Connected to MongoDB
+2025-09-03 19:05:47 info: [app] Default modules initialized
+2025-09-03 19:05:47 info: [app] Default roles initialized
+2025-09-03 19:05:56 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:16:05:56 +0000] "GET / HTTP/1.1" 200 264 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 19:05:56 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:16:05:56 +0000] "GET /simple-login.html HTTP/1.1" 200 2763 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 19:05:57 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:16:05:57 +0000] "GET /favicon.ico HTTP/1.1" - - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 19:06:39 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:16:06:39 +0000] "GET /simple-login.html?username=admin&password=admin-password HTTP/1.1" 200 2763 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 19:09:37 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:16:09:37 +0000] "GET /debug-login.html HTTP/1.1" 200 1445 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 19:16:35 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 19:16:35 info: [app] Server running on port 3000
+2025-09-03 19:16:35 info: [app] Environment: development
+2025-09-03 19:16:35 info: [app] Authentication mode: local
+2025-09-03 19:16:35 info: [app] Connected to MongoDB
+2025-09-03 19:16:36 info: [app] Default roles initialized
+2025-09-03 19:16:36 info: [app] Default modules initialized
+2025-09-03 19:16:41 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 19:16:42 info: [app] Server running on port 3000
+2025-09-03 19:16:42 info: [app] Environment: development
+2025-09-03 19:16:42 info: [app] Authentication mode: local
+2025-09-03 19:16:42 info: [app] Connected to MongoDB
+2025-09-03 19:16:42 info: [app] Default roles initialized
+2025-09-03 19:16:42 info: [app] Default modules initialized
+2025-09-03 19:18:46 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 19:18:46 info: [app] Server running on port 3000
+2025-09-03 19:18:46 info: [app] Environment: development
+2025-09-03 19:18:46 info: [app] Authentication mode: local
+2025-09-03 19:18:47 info: [app] Connected to MongoDB
+2025-09-03 19:18:47 info: [app] Default modules initialized
+2025-09-03 19:18:47 info: [app] Default roles initialized
+2025-09-03 19:18:56 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:16:18:56 +0000] "GET /simple-login.html?username=admin&password=admin-password HTTP/1.1" 200 1556 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 19:18:56 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:16:18:56 +0000] "GET /js/login.js HTTP/1.1" 200 1238 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 19:18:59 info: [localAuthAdapter] Local authentication successful for user: admin
+2025-09-03 19:18:59 info: [authService] User authenticated successfully: admin
+2025-09-03 19:18:59 info: [authRoutes] User logged in: admin
+2025-09-03 19:18:59 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:16:18:59 +0000] "POST /api/auth/login HTTP/1.1" 200 331 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 19:18:59 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:16:18:59 +0000] "GET /simple-dashboard.html HTTP/1.1" 200 4302 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 19:24:31 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 19:24:31 info: [app] Server running on port 3000
+2025-09-03 19:24:31 info: [app] Environment: development
+2025-09-03 19:24:31 info: [app] Authentication mode: local
+2025-09-03 19:24:31 info: [app] Connected to MongoDB
+2025-09-03 19:24:31 info: [app] Default roles initialized
+2025-09-03 19:24:31 info: [app] Default modules initialized
+2025-09-03 19:24:38 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:16:24:38 +0000] "GET /simple-login.html?username=admin&password=admin-password HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 19:24:39 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:16:24:39 +0000] "GET /js/login.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 19:24:43 warn: [localAuthAdapter] Invalid password for user: test
+2025-09-03 19:24:43 warn: [authService] Failed authentication attempt for user: test
+2025-09-03 19:24:43 warn: [authRoutes] Failed login attempt for user: test
+2025-09-03 19:24:43 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:16:24:43 +0000] "POST /api/auth/login HTTP/1.1" 401 31 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 19:25:06 warn: [localAuthAdapter] Invalid password for user: test
+2025-09-03 19:25:06 warn: [authService] Failed authentication attempt for user: test
+2025-09-03 19:25:06 warn: [authRoutes] Failed login attempt for user: test
+2025-09-03 19:25:06 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:16:25:06 +0000] "POST /api/auth/login HTTP/1.1" 401 31 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 19:27:26 info: [localAuthAdapter] Local authentication successful for user: admin
+2025-09-03 19:27:26 info: [authService] User authenticated successfully: admin
+2025-09-03 19:27:26 info: [authRoutes] User logged in: admin
+2025-09-03 19:27:26 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:16:27:26 +0000] "POST /api/auth/login HTTP/1.1" 200 331 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 19:27:26 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:16:27:26 +0000] "GET /simple-dashboard.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 19:28:09 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 19:28:09 info: [app] Server running on port 3000
+2025-09-03 19:28:09 info: [app] Environment: development
+2025-09-03 19:28:09 info: [app] Authentication mode: local
+2025-09-03 19:28:09 info: [app] Connected to MongoDB
+2025-09-03 19:28:09 info: [app] Default roles initialized
+2025-09-03 19:28:09 info: [app] Default modules initialized
+2025-09-03 19:28:14 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 19:28:14 info: [app] Server running on port 3000
+2025-09-03 19:28:14 info: [app] Environment: development
+2025-09-03 19:28:14 info: [app] Authentication mode: local
+2025-09-03 19:28:14 info: [app] Connected to MongoDB
+2025-09-03 19:28:14 info: [app] Default modules initialized
+2025-09-03 19:28:14 info: [app] Default roles initialized
+2025-09-03 19:29:28 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 19:29:28 info: [app] Server running on port 3000
+2025-09-03 19:29:28 info: [app] Environment: development
+2025-09-03 19:29:28 info: [app] Authentication mode: local
+2025-09-03 19:29:28 info: [app] Connected to MongoDB
+2025-09-03 19:29:29 info: [app] Default roles initialized
+2025-09-03 19:29:29 info: [app] Default modules initialized
+2025-09-03 19:29:35 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 19:29:35 info: [app] Server running on port 3000
+2025-09-03 19:29:35 info: [app] Environment: development
+2025-09-03 19:29:35 info: [app] Authentication mode: local
+2025-09-03 19:29:35 info: [app] Connected to MongoDB
+2025-09-03 19:29:35 info: [app] Default modules initialized
+2025-09-03 19:29:35 info: [app] Default roles initialized
+2025-09-03 19:31:31 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 19:31:31 info: [app] Server running on port 3000
+2025-09-03 19:31:31 info: [app] Environment: development
+2025-09-03 19:31:31 info: [app] Authentication mode: local
+2025-09-03 19:31:31 info: [app] Connected to MongoDB
+2025-09-03 19:31:32 info: [app] Default modules initialized
+2025-09-03 19:31:32 info: [app] Default roles initialized
+2025-09-03 19:31:44 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:16:31:44 +0000] "GET /simple-dashboard.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 19:31:51 warn: [localAuthAdapter] Invalid password for user: test
+2025-09-03 19:31:51 warn: [authService] Failed authentication attempt for user: test
+2025-09-03 19:31:51 warn: [authRoutes] Failed login attempt for user: test
+2025-09-03 19:31:51 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:16:31:51 +0000] "POST /api/auth/login HTTP/1.1" 401 31 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 19:31:59 warn: [localAuthAdapter] Invalid password for user: test
+2025-09-03 19:31:59 warn: [authService] Failed authentication attempt for user: test
+2025-09-03 19:31:59 warn: [authRoutes] Failed login attempt for user: test
+2025-09-03 19:31:59 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:16:31:59 +0000] "POST /api/auth/login HTTP/1.1" 401 31 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 19:32:29 info: [localAuthAdapter] Local authentication successful for user: testuser
+2025-09-03 19:32:29 info: [authService] User authenticated successfully: testuser
+2025-09-03 19:32:29 info: [authRoutes] User logged in: testuser
+2025-09-03 19:32:29 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:16:32:29 +0000] "POST /api/auth/login HTTP/1.1" 200 341 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 19:32:29 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:16:32:29 +0000] "GET /simple-dashboard.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 19:44:41 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 19:44:41 info: [app] Server running on port 3000
+2025-09-03 19:44:41 info: [app] Environment: development
+2025-09-03 19:44:41 info: [app] Authentication mode: local
+2025-09-03 19:44:41 info: [app] Connected to MongoDB
+2025-09-03 19:44:41 info: [app] Default modules initialized
+2025-09-03 19:44:41 info: [app] Default roles initialized
+2025-09-03 19:46:26 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 19:46:26 info: [app] Server running on port 3000
+2025-09-03 19:46:26 info: [app] Environment: development
+2025-09-03 19:46:26 info: [app] Authentication mode: local
+2025-09-03 19:46:26 info: [app] Connected to MongoDB
+2025-09-03 19:46:27 info: [app] Default roles initialized
+2025-09-03 19:46:27 info: [app] Default modules initialized
+2025-09-03 19:46:35 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 19:46:35 info: [app] Server running on port 3000
+2025-09-03 19:46:35 info: [app] Environment: development
+2025-09-03 19:46:35 info: [app] Authentication mode: local
+2025-09-03 19:46:35 info: [app] Connected to MongoDB
+2025-09-03 19:46:35 info: [app] Default modules initialized
+2025-09-03 19:46:35 info: [app] Default roles initialized
+2025-09-03 19:47:21 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 19:47:21 info: [app] Server running on port 3000
+2025-09-03 19:47:21 info: [app] Environment: development
+2025-09-03 19:47:21 info: [app] Authentication mode: local
+2025-09-03 19:47:21 info: [app] Connected to MongoDB
+2025-09-03 19:47:21 info: [app] Default modules initialized
+2025-09-03 19:47:21 info: [app] Default roles initialized
+2025-09-03 20:11:31 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 20:11:31 info: [app] Server running on port 3000
+2025-09-03 20:11:31 info: [app] Environment: development
+2025-09-03 20:11:31 info: [app] Authentication mode: local
+2025-09-03 20:11:31 info: [app] Connected to MongoDB
+2025-09-03 20:11:31 info: [app] Default modules initialized
+2025-09-03 20:11:31 info: [app] Default roles initialized
+2025-09-03 20:11:44 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:11:44 +0000] "GET /simple-dashboard.html HTTP/1.1" 200 1461 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:11:46 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:11:46 +0000] "GET /js/simple-dashboard-1.js HTTP/1.1" 200 2865 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:11:47 info: [roleService] Accessible modules for admin: user_management, system_config, reports, dashboard
+2025-09-03 20:11:47 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:11:47 +0000] "GET /api/modules HTTP/1.1" 200 14 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:11:51 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:11:51 +0000] "GET /simple-login.html HTTP/1.1" 200 1556 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:11:51 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:11:51 +0000] "GET /js/login.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:11:53 info: [localAuthAdapter] Local authentication successful for user: admin
+2025-09-03 20:11:53 info: [authService] User authenticated successfully: admin
+2025-09-03 20:11:53 info: [authRoutes] User logged in: admin
+2025-09-03 20:11:53 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:11:53 +0000] "POST /api/auth/login HTTP/1.1" 200 331 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:11:53 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:11:53 +0000] "GET /simple-dashboard.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:11:54 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:11:54 +0000] "GET /js/simple-dashboard-1.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:11:54 info: [roleService] Accessible modules for admin: user_management, system_config, reports, dashboard
+2025-09-03 20:11:54 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:11:54 +0000] "GET /api/modules HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:16:27 info: [roleService] Accessible modules for admin: user_management, system_config, reports, dashboard
+2025-09-03 20:18:58 info: [roleService] Accessible modules for admin: user_management, system_config, system_info, user_list, reports, dashboard
+2025-09-03 20:19:06 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 20:19:06 info: [app] Server running on port 3000
+2025-09-03 20:19:06 info: [app] Environment: development
+2025-09-03 20:19:06 info: [app] Authentication mode: local
+2025-09-03 20:19:06 info: [app] Connected to MongoDB
+2025-09-03 20:19:06 info: [app] Default modules initialized
+2025-09-03 20:19:06 info: [app] Default roles initialized
+2025-09-03 20:19:10 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:19:10 +0000] "GET /simple-login.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:19:11 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:19:11 +0000] "GET /js/login.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:19:12 info: [localAuthAdapter] Local authentication successful for user: admin
+2025-09-03 20:19:12 info: [authService] User authenticated successfully: admin
+2025-09-03 20:19:12 info: [authRoutes] User logged in: admin
+2025-09-03 20:19:12 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:19:12 +0000] "POST /api/auth/login HTTP/1.1" 200 331 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:19:12 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:19:12 +0000] "GET /simple-dashboard.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:19:12 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:19:12 +0000] "GET /js/simple-dashboard-1.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:19:13 info: [roleService] Accessible modules for admin: user_management, system_config, reports, dashboard
+2025-09-03 20:19:13 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:19:13 +0000] "GET /api/modules HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:24:12 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-03 20:24:12 info: [app] Server running on port 3000
+2025-09-03 20:24:12 info: [app] Environment: development
+2025-09-03 20:24:12 info: [app] Authentication mode: local
+2025-09-03 20:24:12 info: [app] Connected to MongoDB
+2025-09-03 20:24:12 info: [app] Default modules initialized
+2025-09-03 20:24:12 info: [app] Default roles initialized
+2025-09-03 20:24:17 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:24:17 +0000] "GET /simple-dashboard.html HTTP/1.1" 200 1461 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:24:18 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:24:18 +0000] "GET /js/simple-dashboard-1.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:24:18 info: [roleService] Accessible modules for admin: user_management, system_config, reports, dashboard
+2025-09-03 20:24:18 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:24:18 +0000] "GET /api/modules HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:24:20 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:24:20 +0000] "GET /simple-login.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:24:20 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:24:20 +0000] "GET /js/login.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:24:21 info: [localAuthAdapter] Local authentication successful for user: admin
+2025-09-03 20:24:21 info: [authService] User authenticated successfully: admin
+2025-09-03 20:24:21 info: [authRoutes] User logged in: admin
+2025-09-03 20:24:21 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:24:21 +0000] "POST /api/auth/login HTTP/1.1" 200 331 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:24:21 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:24:21 +0000] "GET /simple-dashboard.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:24:21 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:24:21 +0000] "GET /js/simple-dashboard-1.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-03 20:24:22 info: [roleService] Accessible modules for admin: user_management, system_config, reports, dashboard
+2025-09-03 20:24:22 info: [app] ::ffff:127.0.0.1 - - [03/Sep/2025:17:24:22 +0000] "GET /api/modules HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:33:26 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:33:26 +0000] "GET /simple-login.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:33:28 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:33:28 +0000] "GET /js/login.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:33:31 info: [localAuthAdapter] Local authentication successful for user: admin
+2025-09-04 13:33:31 info: [authService] User authenticated successfully: admin
+2025-09-04 13:33:31 info: [authRoutes] User logged in: admin
+2025-09-04 13:33:31 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:33:31 +0000] "POST /api/auth/login HTTP/1.1" 200 331 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:33:31 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:33:31 +0000] "GET /simple-dashboard.html HTTP/1.1" 200 1461 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:33:32 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:33:32 +0000] "GET /js/simple-dashboard-1.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:33:32 info: [roleService] Accessible modules for admin: user_management, system_config, reports, dashboard
+2025-09-04 13:33:32 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:33:32 +0000] "GET /api/modules HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:40:12 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-04 13:40:12 info: [app] Server running on port 3000
+2025-09-04 13:40:12 info: [app] Environment: development
+2025-09-04 13:40:12 info: [app] Authentication mode: local
+2025-09-04 13:40:12 info: [app] Connected to MongoDB
+2025-09-04 13:40:12 info: [app] Default roles initialized
+2025-09-04 13:40:12 info: [app] Default modules initialized
+2025-09-04 13:40:27 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:40:27 +0000] "GET /simple-login.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:40:28 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:40:28 +0000] "GET /js/login.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:40:30 info: [localAuthAdapter] Local authentication successful for user: admin
+2025-09-04 13:40:30 info: [authService] User authenticated successfully: admin
+2025-09-04 13:40:30 info: [authRoutes] User logged in: admin
+2025-09-04 13:40:30 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:40:30 +0000] "POST /api/auth/login HTTP/1.1" 200 331 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:40:30 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:40:30 +0000] "GET /simple-dashboard.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:40:31 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:40:31 +0000] "GET /js/simple-dashboard-1.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:40:31 info: [roleService] Accessible modules for admin: user_management, system_config, reports, dashboard
+2025-09-04 13:40:31 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:40:31 +0000] "GET /api/modules HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:40:47 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-04 13:40:47 info: [app] Server running on port 3000
+2025-09-04 13:40:47 info: [app] Environment: development
+2025-09-04 13:40:47 info: [app] Authentication mode: local
+2025-09-04 13:40:47 info: [app] Connected to MongoDB
+2025-09-04 13:40:47 info: [app] Default roles initialized
+2025-09-04 13:40:47 info: [app] Default modules initialized
+2025-09-04 13:41:03 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-04 13:41:03 info: [app] Server running on port 3000
+2025-09-04 13:41:03 info: [app] Environment: development
+2025-09-04 13:41:03 info: [app] Authentication mode: local
+2025-09-04 13:41:03 info: [app] Connected to MongoDB
+2025-09-04 13:41:04 info: [app] Default roles initialized
+2025-09-04 13:41:04 info: [app] Default modules initialized
+2025-09-04 13:41:23 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:41:23 +0000] "GET /simple-dashboard.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:41:23 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:41:23 +0000] "GET /js/simple-dashboard-1.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:41:23 info: [roleService] Accessible modules for admin: user_management, system_config, reports, dashboard
+2025-09-04 13:41:23 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:41:23 +0000] "GET /api/modules HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:41:24 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:41:24 +0000] "GET /simple-login.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:41:24 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:41:24 +0000] "GET /js/login.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:41:25 info: [localAuthAdapter] Local authentication successful for user: admin
+2025-09-04 13:41:25 info: [authService] User authenticated successfully: admin
+2025-09-04 13:41:25 info: [authRoutes] User logged in: admin
+2025-09-04 13:41:25 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:41:25 +0000] "POST /api/auth/login HTTP/1.1" 200 331 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:41:25 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:41:25 +0000] "GET /simple-dashboard.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:41:26 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:41:26 +0000] "GET /js/simple-dashboard-1.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:41:26 info: [roleService] Accessible modules for admin: user_management, system_config, reports, dashboard
+2025-09-04 13:41:26 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:41:26 +0000] "GET /api/modules HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:41:31 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:41:31 +0000] "GET /new-dashboard.html HTTP/1.1" 200 6167 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:41:31 info: [roleService] Accessible modules for admin: user_management, system_config, reports, dashboard
+2025-09-04 13:41:31 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:41:31 +0000] "GET /api/modules HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:44:06 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-04 13:44:06 info: [app] Server running on port 3000
+2025-09-04 13:44:06 info: [app] Environment: development
+2025-09-04 13:44:06 info: [app] Authentication mode: local
+2025-09-04 13:44:06 info: [app] Connected to MongoDB
+2025-09-04 13:44:06 info: [app] Default modules initialized
+2025-09-04 13:44:06 info: [app] Default roles initialized
+2025-09-04 13:44:13 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:44:13 +0000] "GET /simple-login.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:44:13 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:44:13 +0000] "GET /js/login.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:44:14 info: [localAuthAdapter] Local authentication successful for user: admin
+2025-09-04 13:44:14 info: [authService] User authenticated successfully: admin
+2025-09-04 13:44:14 info: [authRoutes] User logged in: admin
+2025-09-04 13:44:14 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:44:14 +0000] "POST /api/auth/login HTTP/1.1" 200 331 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:44:14 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:44:14 +0000] "GET /simple-dashboard.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:44:15 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:44:15 +0000] "GET /js/simple-dashboard-1.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:44:15 info: [roleService] Accessible modules for admin: user_management, system_config, reports, dashboard
+2025-09-04 13:44:15 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:44:15 +0000] "GET /api/modules HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:44:17 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:44:17 +0000] "GET /new-dashboard.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:44:18 info: [roleService] Accessible modules for admin: user_management, system_config, reports, dashboard
+2025-09-04 13:44:18 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:44:18 +0000] "GET /api/modules HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:44:20 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:44:20 +0000] "GET /simple-login.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:44:20 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:44:20 +0000] "GET /js/login.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:44:21 info: [localAuthAdapter] Local authentication successful for user: admin
+2025-09-04 13:44:21 info: [authService] User authenticated successfully: admin
+2025-09-04 13:44:21 info: [authRoutes] User logged in: admin
+2025-09-04 13:44:21 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:44:21 +0000] "POST /api/auth/login HTTP/1.1" 200 331 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:44:21 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:44:21 +0000] "GET /simple-dashboard.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:44:22 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:44:22 +0000] "GET /js/simple-dashboard-1.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:44:22 info: [roleService] Accessible modules for admin: user_management, system_config, reports, dashboard
+2025-09-04 13:44:22 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:44:22 +0000] "GET /api/modules HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:47:13 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:47:13 +0000] "GET /favicon.ico HTTP/1.1" 200 264 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:47:13 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:47:13 +0000] "GET /simple-login.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:47:14 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:47:14 +0000] "GET /js/login.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:47:16 info: [localAuthAdapter] Local authentication successful for user: admin
+2025-09-04 13:47:16 info: [authService] User authenticated successfully: admin
+2025-09-04 13:47:16 info: [authRoutes] User logged in: admin
+2025-09-04 13:47:16 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:47:16 +0000] "POST /api/auth/login HTTP/1.1" 200 331 "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:47:16 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:47:16 +0000] "GET /simple-dashboard.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:47:17 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:47:17 +0000] "GET /js/simple-dashboard-1.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:47:17 info: [roleService] Accessible modules for admin: user_management, system_config, reports, dashboard
+2025-09-04 13:47:17 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:47:17 +0000] "GET /api/modules HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:51:44 info: [roleService] Accessible modules for admin: user_management, system_config, reports, dashboard
+2025-09-04 13:54:24 info: [authAdapterFactory] Creating auth adapter for mode: local
+2025-09-04 13:54:24 info: [app] Server running on port 3000
+2025-09-04 13:54:24 info: [app] Environment: development
+2025-09-04 13:54:24 info: [app] Authentication mode: local
+2025-09-04 13:54:25 info: [app] Connected to MongoDB
+2025-09-04 13:54:25 info: [app] Default modules initialized
+2025-09-04 13:54:25 info: [app] Default roles initialized
+2025-09-04 13:54:32 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:54:32 +0000] "GET /simple-dashboard.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:54:33 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:54:33 +0000] "GET /js/simple-dashboard-1.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:54:33 info: [roleService] Accessible modules for admin: user_management, system_config, reports, dashboard
+2025-09-04 13:54:33 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:54:33 +0000] "GET /api/modules HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:55:21 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:55:21 +0000] "GET /new-dashboard.html HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
+2025-09-04 13:55:21 info: [roleService] Accessible modules for admin: user_management, system_config, reports, dashboard
+2025-09-04 13:55:21 info: [app] ::ffff:127.0.0.1 - - [04/Sep/2025:10:55:21 +0000] "GET /api/modules HTTP/1.1" 304 - "-" "Mozilla/5.0 (X11; Linux x86_64; rv:128.0) Gecko/20100101 Firefox/128.0"
